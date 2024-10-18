@@ -1,147 +1,15 @@
-<style>
-  body,
-  html {
-    height: 100%;
-    margin: 0;
-  }
-
-  .sidebar {
-    min-height: 100vh;
-  }
-</style>
 <div class="d-flex flex-column" style="min-height: 100vh;">
   <div class="d-flex flex-fill">
-    <!-- Sidebar -->
-    <nav class="sidebar bg-light" style="width: 250px;">
-      <div class="p-3">
-        <h6 class="mt-5">Historial</h6>
-        <ul class="list-unstyled">
-          <li><a href="#" class="text-decoration-none">Item 1</a></li>
-          <li><a href="#" class="text-decoration-none">Item 2</a></li>
-          <li><a href="#" class="text-decoration-none">Item 3</a></li>
-          <li><a href="#" class="text-decoration-none">Item 4</a></li>
-          <li><a href="#" class="text-decoration-none">Item 5</a></li>
-          <li><a href="#" class="text-decoration-none">Item 6</a></li>
-          <li><a href="#" class="text-decoration-none">Item 7</a></li>
-          <li><a href="#" class="text-decoration-none">Item 8</a></li>
-          <li><a href="#" class="text-decoration-none">Item 9</a></li>
-          <li><a href="#" class="text-decoration-none">Item 10</a></li>
-        </ul>
-      </div>
-    </nav>
-    <!-- Sidebar -->
+    <!-- Barra-Lateral -->
+    <app-barra-lateral></app-barra-lateral>
+    <!-- Barra-Lateral -->
 
     <!-- Contenido principal -->
-    <div class="flex-fill p-3">
-      <h1>Gifs-App</h1>
-      <!-- Barra de busqueda -->
-      <form class="mb-3">
-        <div class="input-group">
-          <input type="text" class="form-control" placeholder="Buscar..." aria-label="Buscar">
-          <button class="btn btn-primary" type="submit">Buscar</button>
-        </div>
-      </form>
-      <!-- Barra de busqueda -->
-
-      <!-- Tarjetas -->
-      <div class="row">
-        <div class="col-md-4 mb-4">
-          <div class="card">
-            <img src="https://via.placeholder.com/150" class="card-img-top" alt="Imagen 1">
-            <div class="card-body">
-              <h5 class="card-title">Título 1</h5>
-              <p class="card-text">Descripción de la tarjeta 1.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 mb-4">
-          <div class="card">
-            <img src="https://via.placeholder.com/150" class="card-img-top" alt="Imagen 2">
-            <div class="card-body">
-              <h5 class="card-title">Título 2</h5>
-              <p class="card-text">Descripción de la tarjeta 2.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 mb-4">
-          <div class="card">
-            <img src="https://via.placeholder.com/150" class="card-img-top" alt="Imagen 3">
-            <div class="card-body">
-              <h5 class="card-title">Título 3</h5>
-              <p class="card-text">Descripción de la tarjeta 3.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 mb-4">
-          <div class="card">
-            <img src="https://via.placeholder.com/150" class="card-img-top" alt="Imagen 4">
-            <div class="card-body">
-              <h5 class="card-title">Título 4</h5>
-              <p class="card-text">Descripción de la tarjeta 4.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 mb-4">
-          <div class="card">
-            <img src="https://via.placeholder.com/150" class="card-img-top" alt="Imagen 5">
-            <div class="card-body">
-              <h5 class="card-title">Título 5</h5>
-              <p class="card-text">Descripción de la tarjeta 5.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 mb-4">
-          <div class="card">
-            <img src="https://via.placeholder.com/150" class="card-img-top" alt="Imagen 6">
-            <div class="card-body">
-              <h5 class="card-title">Título 6</h5>
-              <p class="card-text">Descripción de la tarjeta 6.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 mb-4">
-          <div class="card">
-            <img src="https://via.placeholder.com/150" class="card-img-top" alt="Imagen 7">
-            <div class="card-body">
-              <h5 class="card-title">Título 7</h5>
-              <p class="card-text">Descripción de la tarjeta 7.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 mb-4">
-          <div class="card">
-            <img src="https://via.placeholder.com/150" class="card-img-top" alt="Imagen 8">
-            <div class="card-body">
-              <h5 class="card-title">Título 8</h5>
-              <p class="card-text">Descripción de la tarjeta 8.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 mb-4">
-          <div class="card">
-            <img src="https://via.placeholder.com/150" class="card-img-top" alt="Imagen 9">
-            <div class="card-body">
-              <h5 class="card-title">Título 9</h5>
-              <p class="card-text">Descripción de la tarjeta 9.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 mb-4">
-          <div class="card">
-            <img src="https://via.placeholder.com/150" class="card-img-top" alt="Imagen 10">
-            <div class="card-body">
-              <h5 class="card-title">Título 10</h5>
-              <p class="card-text">Descripción de la tarjeta 10.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Tarjetas -->
-    </div>
+    <app-pagina-inicio></app-pagina-inicio>
     <!-- Contenido principal -->
   </div>
+</div>
 
-  <!-- Footer -->
-  <footer class="bg-light text-center py-3">
-    <p class="mb-0">© 2024 Tu Empresa. Todos los derechos reservados.</p>
-  </footer>
+<!-- Pie de pagina -->
+<app-pie-de-pagina></app-pie-de-pagina>
+<!-- Pie de pagina -->
